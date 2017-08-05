@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>webproject</display-name>
+  <servlet>
+    <display-name>FormBasedXmlQueryDemo
+    </display-name>
+    <servlet-name>FormBasedXmlQueryDemo</servlet-name>
+    <servlet-class>com.dascom.lucene.demo.FormBasedXmlQueryDemo</servlet-class>
+    <init-param>
+      <param-name>xslFile</param-name>
+      <param-value>query.xsl</param-value>
+    </init-param>
+    <init-param>
+      <param-name>defaultStandardQueryParserField</param-name>
+      <param-value>jobDescription</param-value>
+    </init-param>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FormBasedXmlQueryDemo</servlet-name>
+    <url-pattern>/FormBasedXmlQueryDemo</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>createIndex.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <display-name>weiboServlet</display-name>
+    <servlet-name>weiboServlet</servlet-name>
+    <servlet-class>servlet.WeiboServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>weiboServlet</servlet-name>
+    <url-pattern>/weiboServlet.do</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <display-name>queryIndexServlet</display-name>
+    <servlet-name>queryIndexServlet</servlet-name>
+    <servlet-class>servlet.QueryIndexServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>queryIndexServlet</servlet-name>
+    <url-pattern>/queryIndexServlet.do</url-pattern>
+  </servlet-mapping>
+</web-app>

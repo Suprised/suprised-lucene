@@ -1,0 +1,9 @@
+0:0:0:0:0:0:0:1 - - [08/Nov/2014:20:32:22 +0800] "GET /lucene/createIndex.jsp HTTP/1.1" 500 4640 http-bio-9966-exec-1 334
+0:0:0:0:0:0:0:1 - - [08/Nov/2014:20:32:22 +0800] "GET /favicon.ico HTTP/1.1" 404 - http-bio-9966-exec-2 0
+0:0:0:0:0:0:0:1 - - [08/Nov/2014:20:34:29 +0800] "GET /lucene/createIndex.jsp HTTP/1.1" 200 1027 http-bio-9966-exec-1 943
+0:0:0:0:0:0:0:1 - - [08/Nov/2014:20:34:33 +0800] "GET /lucene/createIndex.jsp HTTP/1.1" 200 1027 http-bio-9966-exec-7 6
+0:0:0:0:0:0:0:1 - - [08/Nov/2014:20:35:35 +0800] "POST /lucene/queryIndexServlet.do?type=createIndex HTTP/1.1" 200 1081 http-bio-9966-exec-8 3742
+0:0:0:0:0:0:0:1 - - [08/Nov/2014:20:36:59 +0800] "GET /lucene/searcher2.jsp HTTP/1.1" 200 3207 http-bio-9966-exec-10 197
+0:0:0:0:0:0:0:1 - - [08/Nov/2014:20:37:09 +0800] "POST /lucene/queryIndexServlet.do HTTP/1.1" 200 6288 http-bio-9966-exec-10 264
+0:0:0:0:0:0:0:1 - - [08/Nov/2014:20:37:12 +0800] "POST /lucene/queryIndexServlet.do HTTP/1.1" 200 4564 http-bio-9966-exec-7 35
+0:0:0:0:0:0:0:1 - - [08/Nov/2014:20:37:14 +0800] "POST /lucene/queryIndexServlet.do HTTP/1.1" 200 6287 http-bio-9966-exec-7 36
